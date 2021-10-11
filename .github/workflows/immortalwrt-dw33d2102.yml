@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: immortalwrt-R6800
+name: immortalwrt-dw33d2102
 
 on:
   repository_dispatch:
@@ -24,9 +24,9 @@ on:
   #  types: started
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-18.06
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: config/immortalwrt-R6800.config
+  CONFIG_FILE: config/immortalwrt-dw33d2102.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: true
