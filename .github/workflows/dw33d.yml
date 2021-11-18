@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: OpenWrt-official-dw33d
+name: OpenWrt-dw33d-k510
 
 on:
   repository_dispatch:
