@@ -1,4 +1,4 @@
-R6800/R6700v2/R6900v2 x86 x86-64 k2 passwall ssrplus+ 
+
 
 
 # Actions-OpenWrt
