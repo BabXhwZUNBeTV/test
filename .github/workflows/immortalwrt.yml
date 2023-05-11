@@ -125,12 +125,12 @@ jobs:
       if: (!cancelled())
       run: df -hT
 
-    - name: Upload bin directory
-      uses: actions/upload-artifact@v3
-      if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
-      with:
-        name: immortalwrt${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
-        path: openwrt/bin
+  #  - name: Upload bin directory
+  #    uses: actions/upload-artifact@v3
+   #   if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
+  #    with:
+  #      name: immortalwrt${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+  #      path: openwrt/bin
 
     - name: Organize files
       id: organize
