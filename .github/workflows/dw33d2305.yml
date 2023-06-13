@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: DW33D_OpenWrt_2305_immortal
+name: DW33D OpenWrt_2305
 
 on:
   repository_dispatch:
