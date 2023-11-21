@@ -9,7 +9,7 @@
 #
 #
 
-name: immortalwrt2-x86
+name: immortalwrt2102-x86
 
 on:
   repository_dispatch:
