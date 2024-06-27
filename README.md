@@ -1,5 +1,1 @@
-FUCK CSDN
-FUCK XJP
-维尼熊
-法轮功
-
+readme
